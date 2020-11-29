@@ -4,7 +4,7 @@ export default function Cards({ name, id, email }) {
   return (
     <div className="card">
       <img
-        className="card-img-top"
+        className="card-img-top img-fluid"
         src="https://robohash.org/{id}?200x200"
         alt=""
       />
